@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Features
 - [x] Set Maximum Length Of UITextfield.
 - [x] Easy Customizable From Storyboard
-![Demo](https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/animated.gif)
+- ![Demo](https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/animated.gif)
 ## Requirements
 - iOS 9.0 or Newer
 
@@ -34,15 +34,19 @@ self.view.addSubview(textField)
 ```
 
 #### Storyboard Support.
-- Just drag and drop a UITextField from Object Library.
+- Drag and drop a UITextField from Object Library.
 - Go to identity inspector and set class to AnimatedTextFieldCounter.
 - And go back to Attribituse Inspector. Here we go!
-- [Storyboard](https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/setup.png)
+- ![Storyboard](https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/setup.png)
 
 #### Using the delegate
+Import The AnimatedTextFieldCounter Class
+```swift
+import AnimatedTextFieldCounter
+```
 Add the delegate to your class
 ```swift
-class ViewController: UIViewController,AnimatedTextFieldCounterDelegate
+class ViewController: UIViewController, AnimatedTextFieldCounterDelegate
 ```
 Then set the delegate 
 ```swift

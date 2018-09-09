@@ -10,9 +10,6 @@ import UIKit
 import AnimatedTextFieldCounter
 
 class ViewController: UIViewController,AnimatedTextFieldCounterDelegate {
-    
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
