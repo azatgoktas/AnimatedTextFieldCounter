@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import AnimatedTextFieldCounter
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,AnimatedTextFieldCounterDelegate {
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let textField = AnimatedTextFieldCounter(frame: CGRect(x: 40, y: 80, width: 320, height: 30), maxLength: 5, heightOfCounterView: 4, animationDuration: 0.2, shakeCount: 1)
+        textField.counterDelegate = self
+        
+        self.view.addSubview(textField)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func reachedMaxLimit(textfield: AnimatedTextFieldCounter) {
+        print("hey!")
     }
 
 }

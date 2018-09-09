@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09675750EEF49CBB280D22A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09675750EEF49CBB280D22A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0C0D0AF58D6FAC1F083AFFE8 /* Pods-AnimatedTextFieldCounter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldCounter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTextFieldCounter_Tests/Pods-AnimatedTextFieldCounter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49876251ECED8AA4B3D857CC /* Pods_AnimatedTextFieldCounter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedTextFieldCounter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A494351BDA5FAED43897679 /* AnimatedTextFieldCounter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimatedTextFieldCounter.podspec; path = ../AnimatedTextFieldCounter.podspec; sourceTree = "<group>"; };
+		5A494351BDA5FAED43897679 /* AnimatedTextFieldCounter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimatedTextFieldCounter.podspec; path = ../AnimatedTextFieldCounter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AnimatedTextFieldCounter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTextFieldCounter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		95239302F7053E9FDAD42F1F /* Pods-AnimatedTextFieldCounter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldCounter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTextFieldCounter_Tests/Pods-AnimatedTextFieldCounter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FDED758B0C5818DF41103EF /* Pods-AnimatedTextFieldCounter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldCounter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTextFieldCounter_Example/Pods-AnimatedTextFieldCounter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8653730E27AB724FB4C8E10 /* Pods_AnimatedTextFieldCounter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedTextFieldCounter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDC3A46D7DBB1C6BB6D79415 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDC3A46D7DBB1C6BB6D79415 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D80481925094B9A77252C6B4 /* Pods-AnimatedTextFieldCounter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldCounter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTextFieldCounter_Example/Pods-AnimatedTextFieldCounter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

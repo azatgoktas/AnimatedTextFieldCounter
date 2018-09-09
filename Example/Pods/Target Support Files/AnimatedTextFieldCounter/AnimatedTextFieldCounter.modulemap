@@ -1,0 +1,6 @@
+framework module AnimatedTextFieldCounter {
+  umbrella header "AnimatedTextFieldCounter-umbrella.h"
+
+  export *
+  module * { export * }
+}

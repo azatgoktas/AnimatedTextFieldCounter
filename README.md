@@ -9,7 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Features
+[x] Set Maximum Length Of UITextfield.
+[x] Easy Customizable From Storyboard
+![AnimatedTextFieldCounter][animated-image]
 ## Requirements
+-iOS 9.0 or Newer
 
 ## Installation
 
@@ -19,10 +24,39 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'AnimatedTextFieldCounter'
 ```
+## How To Use?
 
+#### Adding Programmatically
+```swift
+let textField = AnimatedTextFieldCounter(frame: CGRect(x: 40, y: 80, width: 320, height: 30), maxLength: 5, heightOfCounterView: 4, animationDuration: 0.2, shakeCount: 1)
+
+self.view.addSubview(textField)
+```
+
+#### Storyboards Support.
+Just drag and drop a UITextField from Object Library. Go to identity inspector and set class to AnimatedTextFieldCounter.
+
+And go back to Attribituse Inspector. Here we go!
+[AnimatedTextFieldCounter][setup-image]
+
+#### Using the delegate
+Add the delegate to your class
+```swift
+class ViewController: UIViewController,AnimatedTextFieldCounterDelegate
+```
+Then set the delegate 
+```swift
+textField.counterDelegate = self
+```
+And use the reachedMaxLimit Method.
+```swift
+func reachedMaxLimit(textfield: AnimatedTextFieldCounter) {
+print("hey!")
+}
+```
 ## Author
 
-azattgoktas@gmail.com, azattgoktas@gmail.com
+Azat Goktas, azattgoktas@gmail.com
 
 ## License
 

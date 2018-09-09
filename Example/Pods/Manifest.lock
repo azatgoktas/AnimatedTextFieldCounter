@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedTextFieldCounter (0.1.0)
+
+DEPENDENCIES:
+  - AnimatedTextFieldCounter (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedTextFieldCounter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatedTextFieldCounter: d1ffa738d5ef82ea5f382554b5f8cc7ee4e4bc53
+
+PODFILE CHECKSUM: 2a644730defb3121fcd5923f2bb6385b8dcf163a
+
+COCOAPODS: 1.5.3

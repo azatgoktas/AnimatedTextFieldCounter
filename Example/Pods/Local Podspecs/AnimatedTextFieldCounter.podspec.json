@@ -1,0 +1,22 @@
+{
+  "name": "AnimatedTextFieldCounter",
+  "version": "0.1.0",
+  "summary": "A short description of AnimatedTextFieldCounter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/azattgoktas@gmail.com/AnimatedTextFieldCounter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "azattgoktas@gmail.com": "azattgoktas@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/azattgoktas@gmail.com/AnimatedTextFieldCounter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimatedTextFieldCounter/Classes/**/*"
+}
