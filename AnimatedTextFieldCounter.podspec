@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/azatgoktas/AnimatedTextFieldCounter'
-  s.screenshots     = 'https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/animated.gif'
+  s.screenshots     = 'https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/setup.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Azat Göktaş' => 'azattgoktas@gmail.com' }
   s.source           = { :git => 'https://github.com/azatgoktas/AnimatedTextFieldCounter.git', :tag => s.version.to_s }
