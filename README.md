@@ -36,7 +36,7 @@ self.view.addSubview(textField)
 #### Storyboard Support.
 - Drag and drop a UITextField from Object Library.
 - Go to identity inspector and set class to AnimatedTextFieldCounter.
-- And go back to Attribituse Inspector. Here we go!
+- And go back to Attributes Inspector. Here we go!
 - ![Storyboard](https://github.com/azatgoktas/AnimatedTextFieldCounter/blob/master/ScreenShots/setup.png)
 
 #### Using the delegate
